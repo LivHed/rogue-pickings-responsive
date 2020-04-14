@@ -54,20 +54,19 @@ p {
 
 /*The widths are in a percentage!*/
 header {
-	height: 110px;
+	height: 230px;
 	margin: 0 auto;
 	display: flex;
     justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
 	width: 100%;
-	padding-bottom: 35px;
+	padding: 5px;
 }
 
 header h1 {
-	float: left;
 	margin: 0;
-	padding: 0;
+	padding: 5px;
 	border-bottom: 3px solid #77a466;
 }
 header h1 span {
@@ -75,9 +74,8 @@ header h1 span {
 }
 
 header nav {
-	float: right;
-	padding: 0;
-	margin-bottom: 10px;
+	padding: 5px;
+	margin-top: 5px;
 }
 header nav ul {
 	margin: 5px;
@@ -101,14 +99,10 @@ header nav ul li a {
 	margin: 0 auto;
 	clear: both;
 	display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 	align-items: center;
 	flex-flow: row wrap;
 	width: 100%;
-}
-
-.top-section {
-	padding-top: 65px;
 }
 
 .main-image {
@@ -123,7 +117,6 @@ header nav ul li a {
 
 .main-title {
 	height: auto;
-	float: left;
 }
 .main-title h3 {
 	text-align: left;
@@ -143,18 +136,10 @@ header nav ul li a {
 	border-top: 1px solid #eee;
 }
 
-.section-one h4 {
-	padding: 10px 0;
-}
-
-.section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
-}
-
+.section-one h4,
 .section-two h4,
 .section-three h4 {
-	padding: 10px 30px;
+	padding: 10px 0;
 }
 
 .menu {
@@ -197,6 +182,7 @@ footer span {
 	font-size: 0.875em;
 }
 
+
 @media all and (min-width:768px) {
 	/* Tablet styles here */
 	
@@ -211,9 +197,7 @@ footer span {
 .section-one,
 .section-two,
 .section-three {
-	justify-content: flex-start;
 	width: 33%;
-	float: left;
 	height: 315px;
 	border-top: 1px solid #eee;
  }
@@ -239,9 +223,17 @@ footer span {
     line-height: 25px;
 }
 
+.section-two {
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}  
+
 header {
 	margin: 0 auto;
-	flex-flow: nowrap;
+	display: flex;
+    flex-flow: nowrap;
+	justify-content: start;
+	align-items: center;
 	
 }
 
