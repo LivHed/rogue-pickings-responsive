@@ -61,7 +61,7 @@ header {
 	align-items: center;
 	flex-flow: row wrap;
 	width: 100%;
-	padding: 5px;
+	padding: 10px;
 }
 
 header h1 {
@@ -103,6 +103,10 @@ header nav ul li a {
 	align-items: center;
 	flex-flow: row wrap;
 	width: 100%;
+}
+
+.top-section {
+	padding-bottom: 20px;
 }
 
 .main-image {
