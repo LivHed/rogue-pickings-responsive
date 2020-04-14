@@ -207,24 +207,19 @@ footer span {
  }
 
  p {
-	 padding: 30px 10px;
+	 padding: 20px 10px;
  }
 
  .menu {
-	padding: 30px 5px;
+	padding: 20px 5px;
  }
 
-.section-one h4 {
-    padding: 10px 20px;
-    font-size: 12px;
-    line-height: 25px;
-}
-
+.section-one h4,
 .section-two h4,
 .section-three h4 {
-    padding: 10px 30px;
-    font-size: 12px;
-    line-height: 25px;
+	padding: 5px 7px;
+	font-size: 12px;
+	line-height: 25px;
 }
 
 .section-two {
