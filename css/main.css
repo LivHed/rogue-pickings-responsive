@@ -198,8 +198,77 @@ footer span {
 }
 
 @media all and (min-width:768px) {
-    /* Tablet styles here */
- 
+	/* Tablet styles here */
+	
+.bottom-section {
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+.section-one,
+.section-two,
+.section-three {
+	justify-content: flex-start;
+	width: 33%;
+	float: left;
+	height: 315px;
+	border-top: 1px solid #eee;
+ }
+
+ p {
+	 padding: 30px 10px;
+ }
+
+ .menu {
+	padding: 30px 5px;
+ }
+
+.section-one h4 {
+    padding: 10px 20px;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.section-two h4,
+.section-three h4 {
+    padding: 10px 30px;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+header {
+	margin: 0 auto;
+	flex-flow: nowrap;
+	
+}
+
+header h1 {
+	margin-left: 0;
+	padding: 20px 0;
+	padding-right: 125px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+ header nav {
+	padding: 46px 0;
+	display: flex;
+	flex-flow: nowrap;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+header nav ul {
+	margin: 0;
+}
+
+header nav ul li {
+	padding: 0;
+}
+
 }
  
 @media all and (min-width:1200px) {
