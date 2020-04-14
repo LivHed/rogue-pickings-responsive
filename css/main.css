@@ -192,21 +192,20 @@ footer span {
 header {
 	margin: 0 auto;
 	display: flex;
-	flex-flow: nowrap;
-	justify-content: start;
-	align-items: center;
+	flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
 }
 	
 header h1 {
+	font-size: 1.9em;
 	margin-left: 0;
 	padding: 20px 0;
-	padding-right: 125px;
-	display: flex;
-	justify-content: flex-start;
+	border: none;
 }
 	
 header nav {
-	padding: 46px 0;
+	padding: 24px 0;
 	display: flex;
 	flex-flow: nowrap;
 	justify-content: flex-end;
@@ -215,10 +214,12 @@ header nav {
 	
 header nav ul {
 	margin: 0;
+	display: flex;
+	justify-content: space-between;
 }
 	
 header nav ul li {
-	padding: 0;
+	padding: 0 4px;
 }	
 
 .bottom-section {
@@ -259,13 +260,37 @@ header nav ul li {
 }  
 
 }
- 
+
+/*------- Styling for Ipad Pro size ---------*/
+@media all and (min-width:1024px) {
+	header h1 {
+		margin-right: 40px;
+	}
+}
 
 /*------------ Desktop styles -------------*/
 @media all and (min-width:1200px) {
  
-	header {
-		font-size: 1.8em;
+header {
+		font-size: 1.7em;
 	}
+
+header h1 {
+	border: none;
+	margin-right: 60px;
+}
+
+header nav ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+header nav ul li {
+	padding: 0 6px;
+}
+
+header nav ul li a {
+	font-size: 19px;
+}
  
 }
