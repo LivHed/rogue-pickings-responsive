@@ -180,11 +180,12 @@ footer {
 	align-items: center;
 	flex-flow: row wrap;
 }
-footer span {
+footer h4 span {
 	font-family: 'Wisdom Script', cursive;
 	text-transform: lowercase;
 	color: #77a466;
 	font-size: 0.875em;
+	font-size: 1.2em;
 }
 
 
@@ -257,7 +258,7 @@ header nav ul li {
 .section-two h4,
 .section-three h4 {
 	padding: 5px 7px;
-	font-size: 12px;
+	font-size: 0.9em;
 	line-height: 25px;
 }
 
