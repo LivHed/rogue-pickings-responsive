@@ -52,9 +52,8 @@ p {
     padding: 30px 0;
 }
 
-/*The widths are in a percentage!*/
 header {
-	height: 230px;
+	height: auto;
 	margin: 0 auto;
 	display: flex;
     justify-content: center;
@@ -62,12 +61,14 @@ header {
 	flex-flow: row wrap;
 	width: 100%;
 	padding: 10px;
+	text-align: center;
 }
 
 header h1 {
 	margin: 0;
 	padding: 5px;
 	border-bottom: 3px solid #77a466;
+	width: 100%;
 }
 
 header h1 span {
@@ -77,6 +78,7 @@ header h1 span {
 header nav {
 	padding: 5px;
 	margin-top: 5px;
+	width: 100%;
 }
 header nav ul {
 	margin: 5px;
@@ -192,24 +194,30 @@ footer span {
 header {
 	margin: 0 auto;
 	display: flex;
-	flex-flow: wrap;
+	flex-flow: nowrap;
     justify-content: center;
-    align-items: center;
 }
 	
 header h1 {
-	font-size: 1.9em;
+	font-size: 1.6em;
 	margin-left: 0;
 	padding: 20px 0;
 	border: none;
+	text-align: left;
+	width: 30%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
 }
 	
 header nav {
+	font-size: 0.9em;
 	padding: 24px 0;
 	display: flex;
-	flex-flow: nowrap;
 	justify-content: flex-end;
-	align-items: center;
+	align-items: center;  
+	text-align: right;
+	width: 70%;
 }
 	
 header nav ul {
@@ -262,17 +270,17 @@ header nav ul li {
 }
 
 /*------- Styling for Ipad Pro size ---------*/
-@media all and (min-width:1024px) {
+/* @media all and (min-width:1024px) {
 	header h1 {
 		margin-right: 40px;
 	}
-}
+}  */
 
 /*------------ Desktop styles -------------*/
 @media all and (min-width:1200px) {
  
 header {
-		font-size: 1.7em;
+		font-size: 1.1em;
 	}
 
 header h1 {
@@ -290,7 +298,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-	font-size: 19px;
+	font-size: 1em;
 }
  
 }
