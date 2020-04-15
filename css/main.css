@@ -60,7 +60,7 @@ header {
 	align-items: center;
 	flex-flow: row wrap;
 	width: 100%;
-	padding: 10px;
+	padding: 10px 0;
 	text-align: center;
 }
 
@@ -271,14 +271,10 @@ header nav ul li {
 
 /*------------ Desktop styles -------------*/
 @media all and (min-width:1200px) {
- 
-header {
-		font-size: 1.1em;
-	}
 
 header h1 {
 	border: none;
-	margin-right: 60px;
+	font-size: 1.8em;
 }
 
 header nav ul {
@@ -291,7 +287,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-	font-size: 1em;
+	font-size: 1.2em;
 }
  
 }
