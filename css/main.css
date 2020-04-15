@@ -242,7 +242,6 @@ header nav ul li {
 .section-two,
 .section-three {
 	width: 33%;
-/*	height: 315px;  */
 	border-top: 1px solid #eee;
  }
 
@@ -268,13 +267,6 @@ header nav ul li {
 }  
 
 }
-
-/*------- Styling for Ipad Pro size ---------*/
-/* @media all and (min-width:1024px) {
-	header h1 {
-		margin-right: 40px;
-	}
-}  */
 
 /*------------ Desktop styles -------------*/
 @media all and (min-width:1200px) {
