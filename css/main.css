@@ -225,8 +225,8 @@ header nav ul li {
 .bottom-section {
 	width: 100%;
 	display: flex;
-	justify-content: flex-start;
-	align-items: center;
+	justify-content: center;
+	align-items: flex-start;
 	flex-flow: row wrap;
 }
 
@@ -234,7 +234,7 @@ header nav ul li {
 .section-two,
 .section-three {
 	width: 33%;
-	height: 315px;
+/*	height: 315px;  */
 	border-top: 1px solid #eee;
  }
 
