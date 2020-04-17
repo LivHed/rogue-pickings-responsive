@@ -207,17 +207,11 @@ header h1 {
 	border: none;
 	text-align: left;
 	width: 100%;
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
 }
 	
 header nav {
 	font-size: 0.9em;
 	padding: 24px 0;
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;  
 	text-align: right;
 	width: 100%;
 }
